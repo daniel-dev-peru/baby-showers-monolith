@@ -1,11 +1,11 @@
-package pad.xavdat.pylon.babyshower;
+package pad.xavdat.pylon.babyshower.application;
 
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
 import org.eclipse.microprofile.health.Liveness;
 
 @Liveness
-public class MyLivenessCheck implements HealthCheck {
+public class LivenessCheck implements HealthCheck {
 
     @Override
     public HealthCheckResponse call() {

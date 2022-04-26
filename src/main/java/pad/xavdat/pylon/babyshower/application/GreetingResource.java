@@ -1,4 +1,4 @@
-package pad.xavdat.pylon.babyshower;
+package pad.xavdat.pylon.babyshower.application;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
